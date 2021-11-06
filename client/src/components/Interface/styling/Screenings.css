@@ -1,0 +1,11 @@
+li {
+    list-style: none;
+}
+
+.complete {
+    color: limegreen;
+}
+
+.incomplete {
+    color: red;
+}

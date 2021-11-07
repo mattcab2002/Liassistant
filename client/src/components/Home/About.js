@@ -5,10 +5,13 @@ export const About = () => {
     return (
         <section id='about'>
             <div className='col-sm-6 p-3'>
-                <div className='card' style={{ borderRadius: '14px' }}>
+                <div
+                    className='card'
+                    style={{ borderRadius: '14px', marginLeft: '25%' }}
+                >
                     <div className='card-body'>
                         <h5 className='card-title'>About Memory Loss</h5>
-                        <p className='card-text'>
+                        <p className='card-text' style={{ fontSize: '1.4em' }}>
                             Memory loss (amnesia) is a type of forgetfulness
                             that occurs often. You can be unable to recall
                             recent events, one or many old recollections, or

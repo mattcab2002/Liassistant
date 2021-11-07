@@ -1,32 +1,37 @@
 {
+  "homepage": "http://mattcab2002.github.io/Liassistant",
   "name": "newhacksproject",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
+    "predeploy": "npm run build --prefix client",
+    "deploy": "gh-pages -d client build",
     "start": "node server",
+    "build": "react-scripts build --prefix client",
     "server": "nodemon server",
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mattcab2002/newhacksproject.git"
+    "url": "git+https://github.com/mattcab2002/Liassistant.git"
   },
   "author": "Matthew Cabral",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mattcab2002/newhacksproject/issues"
+    "url": "https://github.com/mattcab2002/Liassistant"
   },
-  "homepage": "https://github.com/mattcab2002/newhacksproject#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "config": "^3.3.6",
     "express": "^4.17.1",
     "express-validator": "^6.13.0",
+    "gh-pages": "^3.2.3",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.0.12",
     "react-router-dom": "^6.0.1",
+    "react-scripts": "^4.0.3",
     "request": "^2.88.2"
   },
   "devDependencies": {

@@ -6,7 +6,7 @@ export const Footer = () => {
     return (
         <section id='footer' className='bg-light'>
             <div className='d-flex justify-content-center align-items-center flex-column'>
-                <a href='https://github.com/mattcab2002/newhacksproject'>
+                <a href='https://github.com/mattcab2002/Liassistant'>
                     <svg
                         xmlns='http://www.w3.org/2000/svg'
                         width='30'

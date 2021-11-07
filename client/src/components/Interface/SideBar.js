@@ -55,6 +55,15 @@ export const SideBar = () => {
                         Patients
                     </Link>
                 </li>
+                <li>
+                    <Link to='/guardian/listen' class='nav-link link-dark'>
+                        <i
+                            class='bi bi-ear'
+                            style={{ paddingRight: '4px' }}
+                        ></i>
+                        Listen
+                    </Link>
+                </li>
             </ul>
             <hr />
             <div class='dropdown'>

@@ -43,7 +43,7 @@ export const Screenings = () => {
                     </span>
                 </li>
                 <Link
-                    to='guardian/screenings/complete-screening'
+                    to='screenings/complete-screening'
                     style={{ textDecoration: 'none' }}
                 >
                     <li

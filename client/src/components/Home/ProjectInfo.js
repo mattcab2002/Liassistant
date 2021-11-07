@@ -6,7 +6,14 @@ export const ProjectInfo = () => {
         <section id='our-initiative' class='m-4'>
             <div class='row'>
                 <div class='col-sm-6'>
-                    <div class='card' style={{ borderRadius: '14px' }}>
+                    <div
+                        class='card'
+                        style={{
+                            borderRadius: '14px',
+                            width: '90%',
+                            marginLeft: '50px',
+                        }}
+                    >
                         <div class='card-body'>
                             <h5 class='card-title'>AI</h5>
                             <p class='card-text'>
@@ -23,7 +30,13 @@ export const ProjectInfo = () => {
                     </div>
                 </div>
                 <div class='col-sm-6'>
-                    <div class='card' style={{ borderRadius: '14px' }}>
+                    <div
+                        class='card'
+                        style={{
+                            borderRadius: '14px',
+                            width: '90%',
+                        }}
+                    >
                         <div class='card-body'>
                             <h5 class='card-title'>This Page</h5>
                             <p class='card-text'>

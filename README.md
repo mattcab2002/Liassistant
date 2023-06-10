@@ -1,4 +1,4 @@
-# Dementia Reminder AI
+# Liassistant
 
 ## Description
 
